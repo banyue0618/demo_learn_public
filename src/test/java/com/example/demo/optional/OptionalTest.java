@@ -27,8 +27,7 @@ public class OptionalTest {
         System.out.println(l2);
         System.out.println(8*7.5);
 
-        long l3 = 60*60*60*1000 + 330*60*1000 + ((60+43)*60 + 31)*1000 + 511*1000;
-        System.out.println(l3);
+
 
 
 
