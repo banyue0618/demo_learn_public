@@ -16,7 +16,7 @@ public class ConcurrentQueryWithCache {
 
     public static void main(String[] args) {
 
-        int count = 20;
+        int count = 5;
 
         ExecutorService executorService = Executors.newFixedThreadPool(count);
 

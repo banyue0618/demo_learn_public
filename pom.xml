@@ -171,6 +171,13 @@
         </dependency>
         <!-- poi -->
 
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-core</artifactId>
+            <version>0.10</version>
+        </dependency>
+
+
         <!-- 图片验证码 -->
 <!--        <dependency>-->
 <!--            <groupId>com.google.code</groupId>-->
