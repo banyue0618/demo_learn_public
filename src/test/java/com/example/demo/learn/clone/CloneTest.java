@@ -1,5 +1,7 @@
 package com.example.demo.learn.clone;
 
+import java.text.DecimalFormat;
+
 /**
  * @ClassName CloneTest
  * @Description 深浅克隆
@@ -17,6 +19,14 @@ package com.example.demo.learn.clone;
 public class CloneTest {
 
     public static void main(String[] args) throws Exception{
+
+        int i = 5;
+
+        int j = 6;
+        DecimalFormat decimalFormat = new DecimalFormat("0.00");
+        System.out.println(decimalFormat.format((float)i/(float)j));
+
+
         Address address = new Address("南昌" , "江西");
 
         User user = new User("张三", "小三", 10, address);
