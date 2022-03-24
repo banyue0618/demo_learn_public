@@ -1,6 +1,6 @@
 package com.example.demo.learn;
 
-import com.example.demo.learn.designPattern.Singleton;
+import com.example.demo.learn.design.pattern.Singleton;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;

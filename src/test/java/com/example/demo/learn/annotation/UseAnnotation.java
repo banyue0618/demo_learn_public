@@ -1,6 +1,6 @@
 package com.example.demo.learn.annotation;
 
-import com.example.demo.learn.designPattern.SingletonTread;
+import com.example.demo.learn.design.pattern.SingletonTread;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

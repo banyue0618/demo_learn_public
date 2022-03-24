@@ -1,4 +1,4 @@
-package com.example.demo.learn.designPattern;
+package com.example.demo.learn.design.pattern;
 
 /**
  * 多线程下线程安全的的懒汉单例设计模式

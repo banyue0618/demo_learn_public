@@ -1,4 +1,4 @@
-package com.example.demo.learn.designPattern;
+package com.example.demo.learn.design.pattern;
 
 /**
  * 饿汉单例模式
