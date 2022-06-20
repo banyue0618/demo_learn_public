@@ -1,0 +1,43 @@
+server:
+  port: 8000
+spring:
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 123456
+    username: root
+    url: jdbc:mysql://127.0.0.1:3306/banyue_test?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8
+
+
+#logging:
+#  level: info
+
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@
+
+## Dubbo 服务提供者配置
+dubbo:
+  application:
+    name: dubbo-simple-provider
+  registry:
+    address: nacos://127.0.0.1:8848?namespace=0b09b465-0324-4746-8e42-1994ce182306
+    parameters:
+      namespace: 0b09b465-0324-4746-8e42-1994ce182306
+
+
+#    address: zookeeper://192.168.159.128:2181
+  protocol:
+    name: dubbo
+    port: 20880
+  timeout: 10000

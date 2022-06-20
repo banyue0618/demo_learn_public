@@ -13,6 +13,10 @@ import java.util.regex.Pattern;
 public class Test {
 
     public static void main(String[] args) {
+
+        System.out.println(100%50);
+        System.out.println(1000%50);
+
         String a = "4406001";
         System.out.println(a.substring(0, 6));
 
