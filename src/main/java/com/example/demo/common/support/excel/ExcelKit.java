@@ -34,6 +34,11 @@ public class ExcelKit<T> {
         this.clazz = clazz;
     }
 
+
+    public static void main(String[] args) {
+
+    }
+
     /**
      * 读取exl数据
      *
@@ -105,7 +110,7 @@ public class ExcelKit<T> {
                     //取得总列数 遍历.
                     int cellNum = maxCol;
                     T entity = null;
-                    for (int j = 0; j < cellNum; j++) {
+                    for (int j = 0; j <= cellNum; j++) {
                         Cell cell = row.getCell(j);
                         if (cell == null) {
                             continue;

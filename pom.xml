@@ -25,6 +25,7 @@
         <mybatisplus-spring-boot-starter.version>1.0.5</mybatisplus-spring-boot-starter.version>
         <!-- 跳过测试 -->
         <skipTests>true</skipTests>
+        <log4j2.version>2.17.1</log4j2.version>
     </properties>
 
     <modules>

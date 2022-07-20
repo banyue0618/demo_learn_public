@@ -1,9 +1,16 @@
 package com.example.demo.common.support.excel;
 
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
 /**
  * @author zhangsp
  * date 2021-06-21
  */
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ElementType.FIELD})
 public @interface ExcelVOAttribute {
 
     /**
